@@ -13,6 +13,9 @@
 		16EB95ED213D977100183150 /* Tut_TabbarController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16EB95EB213D977000183150 /* Tut_TabbarController.xcdatamodeld */; };
 		16EB95EF213D977100183150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EB95EE213D977100183150 /* Assets.xcassets */; };
 		16EB95F2213D977100183150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EB95F0213D977100183150 /* LaunchScreen.storyboard */; };
+		16EB95FA213D9ADE00183150 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EB95F9213D9ADE00183150 /* FirstVC.swift */; };
+		16EB95FC213D9AF100183150 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EB95FB213D9AF100183150 /* SecondVC.swift */; };
+		16EB95FE213D9B8200183150 /* BaseTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EB95FD213D9B8200183150 /* BaseTabbarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		16EB95EE213D977100183150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16EB95F1213D977100183150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16EB95F3213D977100183150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EB95F9213D9ADE00183150 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		16EB95FB213D9AF100183150 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		16EB95FD213D9B8200183150 /* BaseTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				16EB95E4213D977000183150 /* AppDelegate.swift */,
 				16EB95E6213D977000183150 /* ViewController.swift */,
+				16EB95FD213D9B8200183150 /* BaseTabbarVC.swift */,
+				16EB95F9213D9ADE00183150 /* FirstVC.swift */,
+				16EB95FB213D9AF100183150 /* SecondVC.swift */,
 				16EB95E8213D977000183150 /* Main.storyboard */,
 				16EB95EE213D977100183150 /* Assets.xcassets */,
 				16EB95F0213D977100183150 /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16EB95E7213D977000183150 /* ViewController.swift in Sources */,
+				16EB95FE213D9B8200183150 /* BaseTabbarVC.swift in Sources */,
+				16EB95FC213D9AF100183150 /* SecondVC.swift in Sources */,
+				16EB95FA213D9ADE00183150 /* FirstVC.swift in Sources */,
 				16EB95E5213D977000183150 /* AppDelegate.swift in Sources */,
 				16EB95ED213D977100183150 /* Tut_TabbarController.xcdatamodeld in Sources */,
 			);
